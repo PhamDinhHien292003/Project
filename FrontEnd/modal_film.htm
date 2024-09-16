@@ -1,0 +1,28 @@
+<div class="custom-modals" id="modal-films">
+    <div class="modal-contents">
+        <p><strong>Detail Information</strong></p>
+        <div class = "content-inside">
+            <h6>Name  </h6>
+            <input type="text" id="title-detail" placeholder="Title"
+                value="">
+        </div>
+        <div class = "content-inside">
+            <h6>Category </h6>
+            <input type="text" id="category-detail" value="animation">
+        </div>
+        <div class = "content-inside">
+            <h6>Release date</h6>
+            <input type="date" id="date-detail" value="2024-08-30">
+        </div>
+        <div class = "content-inside" >
+            <h6>file image</h6>
+            <input type="text" id="image-detail" value="2024-08-30">
+            <input type="file" id="image-detail-choose" placeholder="image" >
+        </div>
+        <div class = "content-inside">
+            <button class="modal-action-button" onclick="updateBtn()">Update</button>
+            <button class="modal-action-button" onclick="delBtn()">Delete Film</button>
+            <button class="modal-action-button" onclick="closeBtn('modal-films')">Close</button>
+        </div>
+    </div>
+</div>

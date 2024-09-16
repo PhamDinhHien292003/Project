@@ -1,0 +1,41 @@
+<div class="custom-modals" id="modal-films-insert">
+  <div class="modal-contents" >
+    <p><strong>Detail Information</strong></p>
+    <div class="content-inside">
+      <h6>Name </h6>
+      <input type="text" id="insert-title-detail" placeholder="Title" value="" >
+    </div>
+    <div class="content-inside">
+      <h6>Release date</h6>
+      <input type="date" id="insert-date-detail" placeholder="Select day Relase" required >
+    </div>
+
+    <div class="content-inside">
+      <h6>Running Time</h6>
+      <input type="number" id="insert-runningtime-detail" placeholder="Running time ....." >
+    </div>
+
+    <div class="content-inside">
+      <h6>Category </h6>
+      <input type="text" id="insert-category-detail" placeholder="Category" >
+    </div>
+
+    <div class="content-inside">
+      <h6>Age</h6>
+      <input type="number" id="insert-age-req-detail" placeholder="Enter age requirement" >
+    </div>
+    <div class="content-inside">
+      <h6>Likes </h6>
+      <input type="number" id="insert-likes-detail" value="0"  readonly>
+    </div>
+    <div class="content-inside">
+      <h6>file image</h6>
+      <input type="text" id="insert-image-detail" readonly placeholder="Click btn inside to add path image">
+      <input type="file" id="insert-image-detail-choose" placeholder="image">
+    </div>
+    <div class="content-inside">
+      <button class="modal-action-button" onclick="okBtn('modal-films-insert')">Done</button>
+      <button class="modal-action-button" onclick="closeBtn('modal-films-insert')">Close</button>
+    </div>
+  </div>
+</div>
