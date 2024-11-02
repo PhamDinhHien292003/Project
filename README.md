@@ -25,4 +25,4 @@ This project is a film management system that allows users to browse, add, and m
    cd film-management
 
 ## Demo Project
-1. Link video demo youtube : https://youtu.be/k7bRxm-ZdGY
+1. Link video demo youtube : https://youtu.be/Dot6QETuevA
